@@ -8,5 +8,21 @@ namespace Calculadora
 {
     public class Operacoes
     {
+        public void Soma(int n)
+        {
+
+        }
+        public void Subtrair(int n)
+        {
+
+        }
+        public void Multiplicar(int n)
+        {
+
+        }
+        public void Dividir(int n)
+        {
+
+        }
     }
 }
