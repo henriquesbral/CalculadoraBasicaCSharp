@@ -2,4 +2,6 @@
 
 Operacoes operacao = new Operacoes();
 
-Console.WriteLine("Bem-vindo a sua Calculadora em C#\n");
+Console.WriteLine(operacao.Menu());
+
+var opcao = Console.ReadLine();
