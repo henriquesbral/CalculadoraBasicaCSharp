@@ -31,22 +31,22 @@ namespace Calculadora
             {
                 case "SUM":
                     var retornoSum = Soma(a, b);
-                    opcao = $"O Resultado da operação {op} é: {retornoSum}";
+                    opcao = $"\nO Resultado da operação {op} é: {retornoSum}";
                     break;
                 case "SUB":
                     var retornoSub = Subtrair(a, b);
-                    opcao = $"O Resultado da operação {op} é: {retornoSub}";
+                    opcao = $"\nO Resultado da operação {op} é: {retornoSub}";
                     break;
                 case "MUL":
                     var retornoMul = Multiplicar(a, b);
-                    opcao = $"O Resultado da operação {op} é: {retornoMul}";
+                    opcao = $"\nO Resultado da operação {op} é: {retornoMul}";
                     break;
                 case "DIV":
                     var retornoDiv = Dividir(a, b);
-                    opcao = $"O Resultado da operação {op} é: {retornoDiv}";
+                    opcao = $"\nO Resultado da operação {op} é: {retornoDiv}";
                     break;
                 default:
-                    opcao = "Opção inválida, por favor verifique a opção selecionada";
+                    opcao = "\nOpção inválida, por favor verifique a opção selecionada";
                     break;
             }
 
