@@ -53,19 +53,19 @@ namespace Calculadora
             return opcao;
         }
 
-        public int Soma(int a, int b)
+        private int Soma(int a, int b)
         {
             return a + b;
         }
-        public int Subtrair(int a, int b)
+        private int Subtrair(int a, int b)
         {
             return a - b;
         }
-        public int Multiplicar(int a, int b)
+        private int Multiplicar(int a, int b)
         {
             return a * b;
         }
-        public int Dividir(int a, int b)
+        private int Dividir(int a, int b)
         {
             return a / b;
         }
