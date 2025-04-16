@@ -67,6 +67,8 @@ namespace Calculadora
         }
         private int Dividir(int a, int b)
         {
+            if (a == 0 || b == 0)
+                throw new DivideByZeroException("Não é possível dividir por zero !");
             return a / b;
         }
     }

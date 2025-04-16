@@ -23,8 +23,7 @@ namespace ConversorMoedas
                            "\n - BitCoin em Reais" +
                            "\n" +
                            "\nSelecione a moeda que deseja converter: ";
-            Console.WriteLine(menu);
-            
+            Console.WriteLine(menu);            
         }
 
         public double RetornaValorConvertido(double n)

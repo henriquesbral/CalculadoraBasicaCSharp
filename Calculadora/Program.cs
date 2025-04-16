@@ -32,7 +32,7 @@ while (whi)
             whi = false;
         }
 
-        if (Convert.ToInt32(opcao) == 0)
+        if (opcao == "0")
         {
             Console.WriteLine($"\nObrigado por usar a calculadora !");
             whi = false;
