@@ -18,7 +18,8 @@ while (whi)
     }
     else if (!opcoes.Contains(moedaSelecionada))
     {
-        throw new Exception("Opção inválida por gentileza verifique novamente !");
+        Console.WriteLine("Opção inválida por gentileza verifique novamente !");
+        continue;
     }
     else
     {

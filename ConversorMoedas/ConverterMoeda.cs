@@ -33,16 +33,16 @@ namespace ConversorMoedas
             switch (opcao)
             {
                 case 1:
-                    retorno = $"O valor de R$ {valor} convertido em Dólar é: R$ {RetornaValorConvertido(valor, Dolar)}";
+                    retorno = $"O valor de R$ {valor.ToString("N2")} convertido em Dólar é: R$ {RetornaValorConvertido(valor, Dolar).ToString("N2")}";
                     break;
                 case 2:
-                    retorno = $"O valor de R$ {valor} convertido em Euro é: R$ {RetornaValorConvertido(valor, Euro)}";
+                    retorno = $"O valor de R$ {valor.ToString("N2")} convertido em Euro é: R$ {RetornaValorConvertido(valor, Euro).ToString("N2")}";
                     break;
                 case 3:
-                    retorno = $"O valor de R$ {valor} convertido em BitCoin em dólar é: R$ {RetornaValorConvertido(valor, BitCoinDolar)}";    
+                    retorno = $"O valor de R$ {valor.ToString("N2")} convertido em BitCoin em dólar é: R$ {RetornaValorConvertido(valor, BitCoinDolar).ToString("N2")}";    
                     break;
                 case 4:
-                    retorno = $"O valor de R$ {valor} convertido em BitCoin em reais é: R$ {RetornaValorConvertido(valor, BitCoinReais)}";
+                    retorno = $"O valor de R$ {valor} convertido em BitCoin em reais é: R$ {RetornaValorConvertido(valor, BitCoinReais).ToString("N2")}";
                     break;
                 default:
                     retorno = "Opção inválida, por gentileza verifique novamente as opções";
