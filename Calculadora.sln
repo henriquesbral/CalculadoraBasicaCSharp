@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35806.99 d17.13
+VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora", "Calculadora\Calculadora.csproj", "{9F46B18B-23A1-4CC1-BD98-1A3EEBEC2B0F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversorMoedas", "ConversorMoedas\ConversorMoedas.csproj", "{AAA2A022-812D-4F97-9F5C-8A36B6E5B2C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JogoAdivinhação", "JogoAdivinhação\JogoAdivinhação.csproj", "{1556D0C6-8366-456E-B1BB-528B0429948B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{AAA2A022-812D-4F97-9F5C-8A36B6E5B2C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAA2A022-812D-4F97-9F5C-8A36B6E5B2C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAA2A022-812D-4F97-9F5C-8A36B6E5B2C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1556D0C6-8366-456E-B1BB-528B0429948B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1556D0C6-8366-456E-B1BB-528B0429948B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1556D0C6-8366-456E-B1BB-528B0429948B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1556D0C6-8366-456E-B1BB-528B0429948B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
