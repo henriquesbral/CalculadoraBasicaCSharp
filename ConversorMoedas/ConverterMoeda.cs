@@ -50,7 +50,7 @@ namespace ConversorMoedas
 
         private void Menu()
         {
-            string menu = $"Bem vindo ao conversor de moedas para reais!" +
+            string menu = $"\n Bem vindo ao conversor de moedas para reais!" +
                            "\n As moedas disponíveis para conversão são:" +
                            "\n 1 - Dólar = R$ 5,72" +
                            "\n 2 - Euro = R$ 6,52" +
