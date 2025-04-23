@@ -23,8 +23,7 @@ namespace JogoAdivinhação
                      "\n Os números são somente inteiros;" +
                      "\n O número está entre 1 e 10;" +
                      "\n" +
-                     "\nDigite o número abaixo: " +
-                     "\n").ToString();
+                     "\nDigite o número abaixo: ").ToString();
         }
 
         public void JogoFinal()
